@@ -51,9 +51,6 @@ const ProductDetail = () => {
                   Producto #{product.id}
                 </div>
                 <h2 className="detail-title">{product.name}</h2>
-                <p className="detail-description">
-                  Vista de detalle conectada directamente al endpoint de tu backend para consultar un producto por id y operarlo contra el carrito persistido.
-                </p>
 
                 <div className="flex flex-wrap gap-2 mt-4">
                   <span className="category-pill"><Tag size={14} />{product.category}</span>
